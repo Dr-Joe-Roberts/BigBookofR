@@ -18,6 +18,24 @@ We want to create a practical guide to developing quality predictive models from
 
 Link: [https://aml4td.org/](https://aml4td.org/)
 
+## Applied Machine Learning Using mlr3 in R
+
+- [Bernd Bischl](https://www.slds.stat.uni-muenchen.de/people/bischl/)
+- [Raphael Sonabend](https://github.com/RaphaelS1)
+- [Lars Kotthoff](https://www.cs.uwyo.edu/~larsko/)
+- Michel Lang
+
+The mlr3 package and [ecosystem](https://mlr-org.com/ecosystem.html) provide a generic, object-oriented, and extensible framework for
+classification, regression, survival analysis, and other machine
+learning tasks for the R language.
+This includes extensive support for model evaluation, benchmarking,
+hyperparameter tuning, preprocessing, model selection, deep learning
+and more. The book is a comprehensive guide on how to use the mlr3
+framework to solve applied machine learning problems by going from
+simple examples to complex modeling problems.
+
+Link: [https://mlr3book.mlr-org.com/](https://mlr3book.mlr-org.com/)
+
 ## Behavior Analysis with Machine Learning Using R
 
 - Enrique Garcia Ceja
@@ -41,6 +59,14 @@ Link: [https://srdas.github.io/MLBook/](https://srdas.github.io/MLBook/)
 This is a book about torch, the R interface to PyTorch. PyTorch, as of this writing, is one of the major deep-learning and scientific-computing frameworks, widely used across industries and areas of research. With torch, you get to access its rich functionality directly from R, with no need to install, let alone learn, Python.
 
 Link: [https://skeydan.github.io/Deep-Learning-and-Scientific-Computing-with-R-torch/](https://skeydan.github.io/Deep-Learning-and-Scientific-Computing-with-R-torch/)
+
+## Efficient Machine Learning with R: Low-Compute Predictive Modeling with tidymodels
+
+- Simon Couch
+
+This is a book about predictive modeling with tidymodels, focused on reducing the time and memory required to train machine learning models without sacrificing predictive performance.
+
+Link: [https://emlwr.org/](https://emlwr.org/)
 
 ## Explanatory Model Analysis
 
@@ -108,6 +134,14 @@ In this book we will take an unpretentious glance at the most fundamental algori
 
 Link: [https://lmlcr.gagolewski.com/](https://lmlcr.gagolewski.com/)
 
+## Machine Learning-based Causal Inference Tutorial
+
+- [Golub Capital Social Impact Lab](https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil)
+
+This book/tutorial will introduce key concepts in machine learning-based causal inference.
+
+Link: [https://bookdown.org/stanfordgsbsilab/ml-ci-tutorial/](https://bookdown.org/stanfordgsbsilab/ml-ci-tutorial/)
+
 ## Machine Learning for Factor Investing
 
 - [Guillaume Coqueret](https://twitter.com/g_coqueret)
@@ -134,6 +168,17 @@ skills needed to implement machine learning algorithms in R.
 
 Link: [https://www.amazon.com/Mathematics-Programming-Machine-Learning-Ground-ebook-dp-B08JHDCX9Y/dp/B08JHDCX9Y](https://www.amazon.com/Mathematics-Programming-Machine-Learning-Ground-ebook-dp-B08JHDCX9Y/dp/B08JHDCX9Y)
 
+## Model-Based Clustering, Classification, and Density Estimation Using mclust in R
+
+- Luca Scrucca
+- Chris Fraley
+- T. Brendan Murphy
+- Adrian E. Raftery
+
+This book presents a systematic statistical approach to clustering, classification, and density estimation via Gaussian mixture modeling. This model-based framework allows the problems of choosing or developing an appropriate clustering or classification method to be understood within the context of statistical modeling. The mclust package for the statistical environment R is a widely adopted platform implementing these model-based strategies. The package includes both summary and visual functionality, complementing procedures for estimating and choosing models.
+
+Link: [https://mclust-org.github.io/mclust-book/](https://mclust-org.github.io/mclust-book/)
+
 ## Neural Cryptography Using Keras in R
 
 - Michael Harris
@@ -153,6 +198,21 @@ I wrote this book for people who primarily use other statistical software like S
 Paid: Free and paid $15
 
 Link: [https://www.statswithr.com/neural-networks-with-keras-in-r-a-quickstart-guide](https://www.statswithr.com/neural-networks-with-keras-in-r-a-quickstart-guide)
+
+## sits: Data Analysis and Machine Learning on Earth Observation Data Cubes with Satellite Image Time Series
+
+- Gilberto Camara
+- Rolf Simoes
+- Felipe Souza
+- Alber Sanchez
+- Lorena Santos
+- et al
+
+Using time series derived from big Earth Observation data sets is one of the leading research trends in Land Use Science and Remote Sensing. One of the more promising uses of satellite time series is its application to classify land use and land cover. Information on land is critical for sustainable development because our growing demand for natural resources is causing significant environmental impacts. The target audience for sits is the new generation of specialists who understand the principles of remote sensing and can write scripts in R. Ideally, users should have basic knowledge of data science methods using R.
+
+This book presents sits, an open-source R package for land use and land cover classification using big Earth observation data.
+
+Link: [https://e-sensing.github.io/sitsbook/](https://e-sensing.github.io/sitsbook/)
 
 ## Supervised Machine Learning for Text Analysis in R
 
@@ -176,16 +236,6 @@ Surrogates is a graduate textbook, or professional handbook, on topics at the in
 
 Link: [https://bookdown.org/rbg/surrogates/](https://bookdown.org/rbg/surrogates/)
 
-## The Hitchhiker's Guide to Responsible Machine Learning
-
-- Przemyslaw Biecek
-- Anna Kozak
-- Aleksander Zawada
-
-A graphic novel approach to responsible machine learning
-
-Link: [https://betaandbit.github.io/RML/](https://betaandbit.github.io/RML/)
-
 ## The caret Package
 
 - Max Kuhn
@@ -195,6 +245,16 @@ a set of functions that attempt to streamline the process for creating
 predictive models.
 
 Link: [https://topepo.github.io/caret/index.html](https://topepo.github.io/caret/index.html)
+
+## The Hitchhiker's Guide to Responsible Machine Learning
+
+- Przemyslaw Biecek
+- Anna Kozak
+- Aleksander Zawada
+
+A graphic novel approach to responsible machine learning
+
+Link: [https://betaandbit.github.io/RML/](https://betaandbit.github.io/RML/)
 
 ## Tidy Modeling with R
 
@@ -207,33 +267,5 @@ methodology and statistical practice throughout demonstrated using
 series of applied examples.
 
 Link: [https://www.tmwr.org/](https://www.tmwr.org/)
-
-## mlr3 book
-
-- [Michel Lang](https://twitter.com/michellangts)
-
-The mlr3 package and
-[ecosystem](https://github.com/mlr-org/mlr3/wiki/Extension-Packages)
-provide a generic, object-oriented, and extensible framework for
-classification, regression, survival analysis, and other machine
-learning tasks for the R language. They do not implement any learners,
-but provide a unified interface to many existing learners in R.
-
-Link: [https://mlr3book.mlr-org.com/](https://mlr3book.mlr-org.com/)
-
-## sits: Data Analysis and Machine Learning on Earth Observation Data Cubes with Satellite Image Time Series
-
-- Gilberto Camara
-- Rolf Simoes
-- Felipe Souza
-- Alber Sanchez
-- Lorena Santos
-- et al
-
-Using time series derived from big Earth Observation data sets is one of the leading research trends in Land Use Science and Remote Sensing. One of the more promising uses of satellite time series is its application to classify land use and land cover. Information on land is critical for sustainable development because our growing demand for natural resources is causing significant environmental impacts. The target audience for sits is the new generation of specialists who understand the principles of remote sensing and can write scripts in R. Ideally, users should have basic knowledge of data science methods using R.
-
-This book presents sits, an open-source R package for land use and land cover classification using big Earth observation data.
-
-Link: [https://e-sensing.github.io/sitsbook/](https://e-sensing.github.io/sitsbook/)
 
 

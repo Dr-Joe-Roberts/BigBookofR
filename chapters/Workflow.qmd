@@ -32,32 +32,6 @@ or write an issue.
 
 Link: [https://ropenscilabs.github.io/actions_sandbox/](https://ropenscilabs.github.io/actions_sandbox/)
 
-## How I Use R
-
-- David Keyes
-
-There are many great learning resources at the beginner stage and some incredible tutorials to master complex tasks in R. But, drawing from a concept in urban planning, there are far fewer resources in the middle. 
-Stretching the metaphor perhaps to its breaking point, new R users at the "detached single-family home" stage can't get to the advanced "mid-rise" level without going through the middle stage. The "missing middle" in the R neighborhood is the lack of resources to that answer the types of nuts and bolts questions that new R users often have.
-
-Things like:
-
-How should I organize my file structure when creating a new project?
-Should I do data cleaning in an RMarkdown file or an R script file? How
-do I find packages? How do I know if the packages I find are high
-quality?
-
-This book is my attempt to provide answers to these types of questions.
-
-Link: [https://howiuser.com/](https://howiuser.com/)
-
-## R Workflow for Reproducible Data Analysis and Reporting
-
-- Frank E Harrell Jr
-
-This work is intended to foster best practices in reproducible data documentation and manipulation, statistical analysis, graphics, and reporting. It will enable the reader to efficiently produce attractive, readable, and reproducible research reports while keeping code concise and clear. Readers are also guided in choosing statistically efficient descriptive analyses that are consonant with the type of data being analyzed.
-
-Link: [http://hbiostat.org/rflow/](http://hbiostat.org/rflow/)
-
 ## R for the Rest of Us
 
 - [David Keyes](https://twitter.com/rfortherest)
@@ -68,14 +42,21 @@ Link: [https://book.rfortherestofus.com/](https://book.rfortherestofus.com/)
 
 Physical copy available: [https://amzn.to/3RBuKbO](https://amzn.to/3RBuKbO)
 
-## Reproducible Analytical Pipelines (RAP) Companion
+## R in Production
 
-- [Matthew Gregory](https://twitter.com/mammykins_)
-- [Matthew Upson](https://twitter.com/m_a_upson)
+- Hadley Wickham
 
-Reproducible Analytical Pipelines require a range of tools and techniques to implement that can be a challenge to overcome, and this book address some of the common knowledge gaps and hard-to-Google problems that upcoming RAP-pers face.
+An assembly of notes about R in Production.
 
-Link: [https://ukgovdatascience.github.io/rap_companion/](https://ukgovdatascience.github.io/rap_companion/)
+Link: [https://r-in-production.org/](https://r-in-production.org/)
+
+## R Workflow for Reproducible Data Analysis and Reporting
+
+- Frank E Harrell Jr
+
+This work is intended to foster best practices in reproducible data documentation and manipulation, statistical analysis, graphics, and reporting. It will enable the reader to efficiently produce attractive, readable, and reproducible research reports while keeping code concise and clear. Readers are also guided in choosing statistically efficient descriptive analyses that are consonant with the type of data being analyzed.
+
+Link: [http://hbiostat.org/rflow/](http://hbiostat.org/rflow/)
 
 ## Reproducible Analytical Pipelines - Master’s of Data Science
 
@@ -88,6 +69,23 @@ The basic idea of a reproducible analytical pipeline (RAP) is to have code that 
 A well documented RAP avoids a lot of headache and is usually re-usable for other projects as well.
 
 Link: [https://rap4mads.eu/](https://rap4mads.eu/)
+
+## Reproducible Analytical Pipelines (RAP) Companion
+
+- [Matthew Gregory](https://twitter.com/mammykins_)
+- [Matthew Upson](https://twitter.com/m_a_upson)
+
+Reproducible Analytical Pipelines require a range of tools and techniques to implement that can be a challenge to overcome, and this book address some of the common knowledge gaps and hard-to-Google problems that upcoming RAP-pers face.
+
+Link: [https://ukgovdatascience.github.io/rap_companion/](https://ukgovdatascience.github.io/rap_companion/)
+
+## Research Software Engineering
+
+- [Matthias Bannert](https://github.com/mbannert)
+
+Overview open source software and gives R examples in automation and reproducibility.
+
+Link: [https://rse-book.github.io/](https://rse-book.github.io/)
 
 ## The Data Validation Cookbook
 

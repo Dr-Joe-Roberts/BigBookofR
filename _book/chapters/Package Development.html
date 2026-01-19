@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>6&nbsp; Archeology – Big Book of R</title>
+<title>24&nbsp; Package Development – Big Book of R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/Art.html" rel="next">
-<link href="../chapters/API.html" rel="prev">
+<link href="../chapters/Packages.html" rel="next">
+<link href="../chapters/Network Analysis.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -241,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<meta property="og:title" content="6&nbsp; Archeology – Big Book of R">
+<meta property="og:title" content="24&nbsp; Package Development – Big Book of R">
 
 <meta property="og:description" content="">
 
@@ -253,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<meta name="twitter:title" content="6&nbsp; Archeology – Big Book of R">
+<meta name="twitter:title" content="24&nbsp; Package Development – Big Book of R">
 
 <meta name="twitter:card" content="summary_large_image">
 
@@ -280,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Archeology.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Archeology</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Package Development.html"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Package Development</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -340,7 +340,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/Archeology.html" class="sidebar-item-text sidebar-link active">
+  <a href="../chapters/Archeology.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Archeology</span></span></a>
   </div>
 </li>
@@ -448,7 +448,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/Package Development.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/Package Development.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Package Development</span></span></a>
   </div>
 </li>
@@ -558,8 +558,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#how-to-do-archaeological-science-using-r" id="toc-how-to-do-archaeological-science-using-r" class="nav-link active" data-scroll-target="#how-to-do-archaeological-science-using-r"><span class="header-section-number">6.1</span> How To Do Archaeological Science Using R</a></li>
-  <li><a href="#quantitative-methods-in-archaeology-using-r" id="toc-quantitative-methods-in-archaeology-using-r" class="nav-link" data-scroll-target="#quantitative-methods-in-archaeology-using-r"><span class="header-section-number">6.2</span> Quantitative Methods in Archaeology Using R</a></li>
+  <li><a href="#coding-club-creating-an-r-package" id="toc-coding-club-creating-an-r-package" class="nav-link active" data-scroll-target="#coding-club-creating-an-r-package"><span class="header-section-number">24.1</span> Coding Club: Creating an R Package</a></li>
+  <li><a href="#http-testing-in-r" id="toc-http-testing-in-r" class="nav-link" data-scroll-target="#http-testing-in-r"><span class="header-section-number">24.2</span> HTTP testing in R</a></li>
+  <li><a href="#pack-your-code" id="toc-pack-your-code" class="nav-link" data-scroll-target="#pack-your-code"><span class="header-section-number">24.3</span> Pack YouR Code</a></li>
+  <li><a href="#r-packages" id="toc-r-packages" class="nav-link" data-scroll-target="#r-packages"><span class="header-section-number">24.4</span> R packages</a></li>
+  <li><a href="#ropensci-packages-development-maintenance-and-peer-review" id="toc-ropensci-packages-development-maintenance-and-peer-review" class="nav-link" data-scroll-target="#ropensci-packages-development-maintenance-and-peer-review"><span class="header-section-number">24.5</span> rOpenSci Packages Development, Maintenance, and Peer Review</a></li>
   </ul>
 </nav>
     </div>
@@ -569,7 +572,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Archeology</span></h1>
+<h1 class="title"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Package Development</span></h1>
 </div>
 
 
@@ -586,22 +589,49 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="how-to-do-archaeological-science-using-r" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="how-to-do-archaeological-science-using-r"><span class="header-section-number">6.1</span> How To Do Archaeological Science Using R</h2>
+<section id="coding-club-creating-an-r-package" class="level2" data-number="24.1">
+<h2 data-number="24.1" class="anchored" data-anchor-id="coding-club-creating-an-r-package"><span class="header-section-number">24.1</span> Coding Club: Creating an R Package</h2>
 <ul>
-<li>Ben Marwick (editor)</li>
+<li><a href="https://debruine.github.io/">Lisa DeBruine</a></li>
 </ul>
-<p>Archaeological science is becoming increasingly complex, and progress in this area is slowed by critical limitation of journal articles lacking the space to communicate new methods in enough detail to allow others to reproduce and reuse new research. One solution to this is to use a programming language such as R to analyse archaeological data, with authors sharing their R code with their publications to communicate our methods. This practice is becoming widespread in many other disciplines, but few archaeologists currently know how to use R or have an opportunity to learn during their training. In this forum we tackle this problem by discussing ubiquitous research methods of immediate relevance to most archaeologists, by using interactive, live-coded demonstrations of R code by archaeologists who program with R. Topics include getting data into R, working with C14 dates, spatial analysis and map-making, conducting simulations, and exploratory data visualizations.</p>
-<p>Link: <a href="https://benmarwick.github.io/How-To-Do-Archaeological-Science-Using-R/">https://benmarwick.github.io/How-To-Do-Archaeological-Science-Using-R/</a></p>
+<p>Making an R package develops generic coding skills and gives you valuable insight to how R works. We’ll cover setting up a package project, creating functions, documenting them with roxygen, creating vignettes, unit testing, package testing, version control with git, and distribution with github.</p>
+<p>You will need only very basic R skills and a willingness to learn. The only people this would not be suitable for are those with zero previous experience in R (unless you know you pick up coding languages quickly). If you can install packages and have written an analysis script, you’ll be fine.</p>
+<p>Link: <a href="https://psyteachr.github.io/intro-r-pkgs/">https://psyteachr.github.io/intro-r-pkgs/</a></p>
 </section>
-<section id="quantitative-methods-in-archaeology-using-r" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="quantitative-methods-in-archaeology-using-r"><span class="header-section-number">6.2</span> Quantitative Methods in Archaeology Using R</h2>
+<section id="http-testing-in-r" class="level2" data-number="24.2">
+<h2 data-number="24.2" class="anchored" data-anchor-id="http-testing-in-r"><span class="header-section-number">24.2</span> HTTP testing in R</h2>
 <ul>
-<li>David L. Carson</li>
+<li><a href="https://twitter.com/sckottie">Scott Chamberlain</a></li>
+<li><a href="https://twitter.com/ma_salmon">Maëlle Salmon</a></li>
 </ul>
-<p>The first hands-on guide to using the R statistical computing system written specifically for archaeologists. It shows how to use the system to analyze many types of archaeological data. Part I includes tutorials on R, with applications to real archaeological data showing how to compute descriptive statistics, create tables, and produce a wide variety of charts and graphs. Part II addresses the major multivariate approaches used by archaeologists, including multiple regression (and the generalized linear model); multiple analysis of variance and discriminant analysis; principal components analysis; correspondence analysis; distances and scaling; and cluster analysis. Part III covers specialized topics in archaeology, including intra-site spatial analysis, seriation, and assemblage diversity.</p>
-<p>Paid: Loan or buy $100</p>
-<p>Link: <a href="https://www.cambridge.org/core/books/quantitative-methods-in-archaeology-using-r/DEAE593FA2418EA3B8ECD538C34ED2D5?fbclid=IwAR0guclfEtttfDkVKNUJWfhQ1wgUlXSKAIA3f_6D3hS_9EkUKivSY9AyFD8">https://www.cambridge.org/core/books/quantitative-methods-in-archaeology-using-r/DEAE593FA2418EA3B8ECD538C34ED2D5?fbclid=IwAR0guclfEtttfDkVKNUJWfhQ1wgUlXSKAIA3f_6D3hS_9EkUKivSY9AyFD8</a></p>
+<p>This book is meant to be a free, central reference for developers of R packages accessing web resources, to help them have a faster and more robust development. Our aim is to develop an useful guidance to go with the great recent tools that vcr, webmockr, httptest and presser are.</p>
+<p>Link: <a href="https://books.ropensci.org/http-testing/">https://books.ropensci.org/http-testing/</a></p>
+</section>
+<section id="pack-your-code" class="level2" data-number="24.3">
+<h2 data-number="24.3" class="anchored" data-anchor-id="pack-your-code"><span class="header-section-number">24.3</span> Pack YouR Code</h2>
+<ul>
+<li><a href="https://www.gastonsanchez.com">Gaston Sanchez</a></li>
+</ul>
+<p>The ultimate goal of this book is to teach you how to create a relatively simple R package based on the so-called S3 classes.</p>
+<p>Paid: Free preview of first 4 chapters $13</p>
+<p>Link: <a href="http://www.gastonsanchez.com/packyourcode/">http://www.gastonsanchez.com/packyourcode/</a></p>
+</section>
+<section id="r-packages" class="level2" data-number="24.4">
+<h2 data-number="24.4" class="anchored" data-anchor-id="r-packages"><span class="header-section-number">24.4</span> R packages</h2>
+<ul>
+<li><a href="https://twitter.com/hadleywickham">Hadley Wickham</a></li>
+<li><a href="https://twitter.com/JennyBryan">Jenny Bryan</a></li>
+</ul>
+<p>Packages are the fundamental units of reproducible R code. They include reusable R functions, the documentation that describes how to use them, and sample data. In this section you’ll learn how to turn your code into packages that others can easily download and use. Writing a package can seem overwhelming at first. So start with the basics and improve it over time. It doesn’t matter if your first version isn’t perfect as long as the next version is better.</p>
+<p>Link: <a href="https://r-pkgs.org/">https://r-pkgs.org/</a></p>
+</section>
+<section id="ropensci-packages-development-maintenance-and-peer-review" class="level2" data-number="24.5">
+<h2 data-number="24.5" class="anchored" data-anchor-id="ropensci-packages-development-maintenance-and-peer-review"><span class="header-section-number">24.5</span> rOpenSci Packages Development, Maintenance, and Peer Review</h2>
+<ul>
+<li><a href="https://twitter.com/ropensci">rOpenSci software review editorial team</a></li>
+</ul>
+<p>This book is a package development guide for authors, maintainers, reviewers and editors of rOpenSci.</p>
+<p>Link: <a href="https://devguide.ropensci.org/index.html">https://devguide.ropensci.org/index.html</a></p>
 
 
 </section>
@@ -1061,13 +1091,13 @@ Keen to support the site? You're most welcome to <a href="https://ko-fi.com/I2I1
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/API.html" class="pagination-link" aria-label="API">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">API</span></span>
+      <a href="../chapters/Network Analysis.html" class="pagination-link" aria-label="Network Analysis">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Network Analysis</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/Art.html" class="pagination-link" aria-label="Art">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Art</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../chapters/Packages.html" class="pagination-link" aria-label="Packages">
+        <span class="nav-page-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Packages</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -1,15 +1,5 @@
 # Social Science
 
-## APIs for social scientists: A collaborative review
-
-- Paul C. Bauer
-- Camille Landesvatter
-- many others
-
-The present online book provide a review of APIs that may be useful for social scientists. Covers a wide selection of APIs from google, Instagram, Youtube and others.  R code included.
-
-Link: [https://bookdown.org/paul/apis_for_social_scientists/](https://bookdown.org/paul/apis_for_social_scientists/)
-
 ## An R Exercise in Data Collection, Cleaning, and Merging U.S. Census Data
 
 - Sean Conner
@@ -23,7 +13,7 @@ Link: [https://bookdown.org/scconner7/r_census_data_cleaning_tutorial/](https://
 - [Burak AYDIN](https://twitter.com/Burak4YD1N)
 - James ALGINA
 - Walter LEITE
-- Hakan ATILGAN
+- [Hakan ATILGAN](https://twitter.com/hakanatilgan)
 
 We aim to create a platform for the applied social scientists in which we can demonstrate basic statistical procedures using R and real data. We prefer to name this material as a platform given that (a) it is open for contribution, (b) it will have dynamic content and (c) it can serve as a mainboard for Plug-ins and Add-ons .
 
@@ -37,6 +27,16 @@ Census data are widely used in the United States across numerous research and ap
 
 Link: [https://walker-data.com/census-r/](https://walker-data.com/census-r/)
 
+## APIs for social scientists: A collaborative review
+
+- Paul C. Bauer
+- Camille Landesvatter
+- many others
+
+The present online book provide a review of APIs that may be useful for social scientists. Covers a wide selection of APIs from google, Instagram, Youtube and others.  R code included.
+
+Link: [https://bookdown.org/paul/apis_for_social_scientists/](https://bookdown.org/paul/apis_for_social_scientists/)
+
 ## Applied Demographic Data Analysis
 
 - Corey S. Sparks, PhD
@@ -44,15 +44,6 @@ Link: [https://walker-data.com/census-r/](https://walker-data.com/census-r/)
 My goal for this book is to take the lessons I’ve learned teaching statistics to a diverse and often cursorily trained group of students who have problems they care about, that they need to bring demographic data to bear upon. This is a challenge, and I have always been a stalwart proponent of teaching statistics and data analysis in a very applied manner. As such, this book won’t be going into rigorous proofs of estimators or devoting pages to expositions of icky algebra; instead it will focus on exploring modern methods of data analysis that in used by demographers every day, but not always taught in our training programs.
 
 Link: [https://coreysparks.github.io/appdem_Book/](https://coreysparks.github.io/appdem_Book/)
-
-## CSSS 508 Introduction to R for Social Scientists
-
-- [Charles Lanfear](https://clanfear.github.io)
-- [Rebecca Ferrell](https://rferrell.wordpress.com)
-
-Course material with Youtube Video
-
-Link: [https://clanfear.github.io/CSSS508/](https://clanfear.github.io/CSSS508/)
 
 ## Complex Surveys: A Guide to Analysis Using R
 
@@ -72,13 +63,15 @@ Link: [https://bluefoxr.github.io/COINrDoc/](https://bluefoxr.github.io/COINrDoc
 
 ## Computational Analysis of Communication
 
-- [Wouter van Atteveldt](https://twitter.com/vanatteveldt)
-- Damian Trilling
+- [Wouter van Atteveldt](https://vanatteveldt.com)
+- [Damian Trilling](https://www.damiantrilling.net/)
 - Carlos Arcila Calderon
 
-Assuming little or no background in data science or computer linguistics, this accessible textbook teaches readers how to use state-of-the art computational methods to perform data-driven analyses of social science issues. A cross-disciplinary team of authors—with expertise in both the social sciences and computer science—explains how to gather and clean data, manage textual, audio-visual, and network data, conduct statistical and quantitative analysis, and interpret, summarize, and visualize the results.
+Assuming little or no background in data science or computer linguistics, this accessible textbook teaches readers how to use state-of-the art computational methods to perform data-driven analyses of social science issues. A cross-disciplinary team of authors—with expertise in both the social sciences and computer science—explains how to gather and clean data, manage textual, audio-visual, and network data, conduct statistical and quantitative analysis, and interpret, summarize, and visualize the results.  (Link to the draft 2nd ed: https://v2.cssbook.net/)
 
-Link: [https://www.wiley.com/en-us/Computational+Analysis+of+Communication-p-9781119680239](https://www.wiley.com/en-us/Computational+Analysis+of+Communication-p-9781119680239)
+Link: [http://cssbook.net/](http://cssbook.net/)
+
+Physical copy available: [https://www.wiley.com/en-us/Computational+Analysis+of+Communication-p-9781119680239](https://www.wiley.com/en-us/Computational+Analysis+of+Communication-p-9781119680239)
 
 ## Computational Social Science: Theory & Application
 
@@ -116,6 +109,25 @@ This book introduces the programming language R and is meant for undergrads or g
 
 Link: [https://crimebythenumbers.com/](https://crimebythenumbers.com/)
 
+## CSSS 508 Introduction to R for Social Scientists
+
+- [Charles Lanfear](https://clanfear.github.io)
+- [Rebecca Ferrell](https://rferrell.wordpress.com)
+
+Course material with Youtube Video
+
+Link: [https://clanfear.github.io/CSSS508/](https://clanfear.github.io/CSSS508/)
+
+## Exploring Complex Survey Data Analysis Using R
+
+- Stephanie A. Zimmer
+- Rebecca J. Powell
+- Isabella C. Velásquez
+
+We focus on R to introduce survey analysis. Our goal is to provide a comprehensive guide for individuals new to survey analysis but with some familiarity with statistics and R programming. We use a combination of the {survey} and {srvyr} packages and present the code following best practices from the tidyverse
+
+Link: [https://tidy-survey-r.github.io/tidy-survey-book/](https://tidy-survey-r.github.io/tidy-survey-book/)
+
 ## Introduction to R for Social ScientistsA Tidy Programming Approach
 
 - Ryan Kennedy
@@ -132,6 +144,19 @@ Link: [https://i2rss.weebly.com/#](https://i2rss.weebly.com/#)
 The goal of this book is to make data science accessible to social scientists and City Planners, in particular. I hope to convince readers that one with strong domain expertise plus intermediate data skills can have a greater impact in government than the sharpest computer scientist who has never studied economics, sociology, public health, political science, criminology etc.
 
 Link: [https://urbanspatial.github.io/PublicPolicyAnalytics/](https://urbanspatial.github.io/PublicPolicyAnalytics/)
+
+## Quantitative methods in the context of education research
+
+- [Peter EJ Kemp](https://twitter.com/peterejkemp)
+- [Richard Brock](https://twitter.com/RBrockPhysics)
+- [Amy O’Brien](https://twitter.com/amyobrienuk)
+- Carla Finesilver
+- Lulu Healy
+- [David Pepper](https://twitter.com/pepspepper)
+
+This book takes the reader through the process of learning the R statistical programming language through the analysis of the 2022 PISA survey data
+
+Link: [https://peterejkemp.github.io/v3/](https://peterejkemp.github.io/v3/)
 
 ## R for Social Network Analysis
 
@@ -182,5 +207,15 @@ Link: [https://www.worldcat.org/title/using-r-for-data-analysis-in-social-scienc
 Our goal for this document is to illustrate the importance of good data analysis practices and how R and companion packages support these practices. We think the R system has many benefits for social work research. R has become the flagship computing environment for many areas of science and has great appeal because it is free and open-access. In addition, free tools like RStudio and R Markdown promote a replication commitment and open science philosophy important to our work.
 
 Link: [https://bookdown.org/bean_jerry/using_r_for_social_work_research/](https://bookdown.org/bean_jerry/using_r_for_social_work_research/)
+
+## Visualization for Social Data Science
+
+- [Roger Beecham](https://www.roger-beecham.com/)
+
+vis4sds provides end-to-end skills in visual data analysis. The book demonstrates how data graphics and modern statistics can be used in tandem to process, explore, model and communicate data-driven social science. It is packed with detailed data analysis examples, pushing you to do visual data analysis. As well as introducing, and demonstrating with code, a wide range of data visualizations for exploring patterns in data, Visualization for Social Data Science shows how models can be integrated with graphics to emphasise important structure and de-emphasise spurious structure and the role of data graphics in scientific communication -- in building trust and integrity. Many of the book’s influences are from data journalism, as well as information visualization and cartography.
+
+The book is being published by Chapman Hall/CRC Press in 2025, but the online development version will remain and be maintained by the author.
+
+Link: [https://vis4sds.github.io/vis4sds/](https://vis4sds.github.io/vis4sds/)
 
 

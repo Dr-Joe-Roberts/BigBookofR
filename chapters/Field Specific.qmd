@@ -1,5 +1,13 @@
 # Field Specific
 
+## An Introduction To Forensic Metascience
+
+- James Heathers
+
+Forensic metascientific analysis is designed to modify trust by evaluating research consistency. It is not designed to ‘find fraud’. While this may happen, it is not the sole focus of forensic metascience as a research area and practice, it is simply the loudest consequence. The following is a guide to learning many of the available techniques in forensic metascience that have a stated quantitative approach in the tradition of Knuth’s literate programming. All code is given in R.
+
+Link: [https://jamesheathers.curve.space/](https://jamesheathers.curve.space/)
+
 ## An Open-Source Active Learning Curriculum for Data Science in Engineering
 
 - [Zachary del Rosario](www.zdelrosario.com)
@@ -12,10 +20,10 @@ Link: [https://zdelrosario.github.io/data-science-curriculum/index.html](https:/
 
 - Jonathan Lin
 
-This is the website for Audit Analytics in R. This audience of this book is for:
-
-Audit leaders who are looking to design their environment to encourage cultivate collaboration and sustainability.
-Audit data analytics practitioners, who are looking to leverage R in their data analytics tasks.
+This is the website for Audit Analytics in R. This audience of this book is for:
+
+Audit leaders who are looking to design their environment to encourage cultivate collaboration and sustainability.
+Audit data analytics practitioners, who are looking to leverage R in their data analytics tasks.
 You will learn what tools and technologies are well suited for a modern audit analytics toolkit, as well as learn skills with R to perform data analytics tasks. Consider this book to be your roadmap of practical items to implement and follow.
 
 Link: [https://auditanalytics.jonlin.ca/](https://auditanalytics.jonlin.ca/)
@@ -61,32 +69,13 @@ This book introduces the programming language R and is meant for undergrads or g
 
 Link: [https://crimebythenumbers.com/](https://crimebythenumbers.com/)
 
-## Cryptocurrency Research Open Source R Tutorial
-
-- [Riccardo (Ricky) Esclapon](https://www.linkedin.com/in/esclaponriccardo/)
-- [John Chandler Johnson](https://www.linkedin.com/in/john-chandler-johnson-361a666/)
-- [Kai R. Larsen](https://www.linkedin.com/in/kai-r-larsen-4413a01/)
-
-The tutorial is in R. For those without experience programming in R
-we have a high-level version to help you learn before attempting the full version. Scroll down for a breakdown of the individual sections for an overview of what you will learn throughout.
-
-You will get more familiar with tools from the tidyverse, including dplyr, ggplot2, tibble and purrr. These tools provide an excellent complete ecosystem to do data science in R.
-
-You will learn to create machine learning models and how to fairly assess their performance.
-
-Cryptocurrency Data: You will learn these tools analyzing the latest
-cryptocurrency data. The tutorial automatically refreshes every 12 hours
-and the data is publicly available and refreshed hourly.
-
-Link: [https://cryptocurrencyresearch.org/](https://cryptocurrencyresearch.org/)
-
 ## Customer Intelligence with R
 
 
 
 Customer Intelligence with R’ (CI with R) is for learning the basic application of customer activation, development, retention, and segmentation (CADRS) with R. It is aimed to be educational outside of the academia.
 
-Link: [https://ciwr-businessintelligenceservices-7059ba5c59c64196a9a6337d14fc5.gitlab.io/](https://ciwr-businessintelligenceservices-7059ba5c59c64196a9a6337d14fc5.gitlab.io/)
+Link: [https://ciwr.pages.dev/](https://ciwr.pages.dev/)
 
 ## Data Science in Education Using R
 
@@ -192,35 +181,18 @@ The goal of this book is to make data science accessible to social scientists an
 
 Link: [https://urbanspatial.github.io/PublicPolicyAnalytics/](https://urbanspatial.github.io/PublicPolicyAnalytics/)
 
-## R Programming for Actuarial Science
+## Quantitative methods in the context of education research
 
-- Alfred Kume
-- Peter McQuire
+- [Peter EJ Kemp](https://twitter.com/peterejkemp)
+- [Richard Brock](https://twitter.com/RBrockPhysics)
+- [Amy O’Brien](https://twitter.com/amyobrienuk)
+- Carla Finesilver
+- Lulu Healy
+- [David Pepper](https://twitter.com/pepspepper)
 
-Professional resource providing an introduction to R coding for actuarial and financial mathematics applications, with real-life examples
+This book takes the reader through the process of learning the R statistical programming language through the analysis of the 2022 PISA survey data
 
-R Programming for Actuarial Science provides a grounding in R programming applied to the mathematical and statistical methods that are of relevance for actuarial work.
-
-Link: [https://www.wiley.com/en-ae/R+Programming+for+Actuarial+Science-p-9781119754992](https://www.wiley.com/en-ae/R+Programming+for+Actuarial+Science-p-9781119754992)
-
-## R Programming with Minecraft
-
-- Brooke Anderson
-- Karl Broman
-- Gergely Daróczi
-- Mario Inchiosa
-- David Smith
-- Ali Zaidi
-
-Minecraft is awesome fun, especially in creative mode, where you can
-build all sorts of crazy stuff. But ambitious building projects can be
-really tedious to create by hand. With the miner R package, you can
-write R code to manipulate your Minecraft world and create even more
-awesome stuff.
-
-Here's an introduction Rstats NYC conference talk on it: https://www.youtube.com/watch?v=r_JgPF8MJpY
-
-Link: [https://kbroman.org/miner_book/?s=09](https://kbroman.org/miner_book/?s=09)
+Link: [https://peterejkemp.github.io/v3/](https://peterejkemp.github.io/v3/)
 
 ## R for Excel users
 
@@ -256,6 +228,36 @@ In this course, we will move more quickly, assume familiarity with basic R skill
 This course emphasizes intermediate scripting skills like iteration, functional programming, writing functions, and controlling project workflows for better reproducibility and efficiency. Approaches to working with more complex data structures like lists and timeseries data, the fundamentals of building Shiny Apps, pulling water resources data from APIs, intermediate mapmaking and spatial data processing, integrating version control in projects with git.
 
 Link: [https://www.r4wrds.com/](https://www.r4wrds.com/)
+
+## R Programming for Actuarial Science
+
+- Alfred Kume
+- Peter McQuire
+
+Professional resource providing an introduction to R coding for actuarial and financial mathematics applications, with real-life examples
+
+R Programming for Actuarial Science provides a grounding in R programming applied to the mathematical and statistical methods that are of relevance for actuarial work.
+
+Link: [https://www.wiley.com/en-ae/R+Programming+for+Actuarial+Science-p-9781119754992](https://www.wiley.com/en-ae/R+Programming+for+Actuarial+Science-p-9781119754992)
+
+## R Programming with Minecraft
+
+- Brooke Anderson
+- Karl Broman
+- Gergely Daróczi
+- Mario Inchiosa
+- David Smith
+- Ali Zaidi
+
+Minecraft is awesome fun, especially in creative mode, where you can
+build all sorts of crazy stuff. But ambitious building projects can be
+really tedious to create by hand. With the miner R package, you can
+write R code to manipulate your Minecraft world and create even more
+awesome stuff.
+
+Here's an introduction Rstats NYC conference talk on it: https://www.youtube.com/watch?v=r_JgPF8MJpY
+
+Link: [https://kbroman.org/miner_book/?s=09](https://kbroman.org/miner_book/?s=09)
 
 ## Technical Foundations of Informatics
 

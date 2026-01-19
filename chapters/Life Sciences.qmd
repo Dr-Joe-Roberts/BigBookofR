@@ -48,6 +48,14 @@ Hierarchical Models in Ecology Using Bayesian Inference
 
 Link: [https://bookdown.org/steve_midway/BHME/](https://bookdown.org/steve_midway/BHME/)
 
+## Biological Data Science with R
+
+- [Stephen Turner](https://blog.stephenturner.us/)
+
+Introductory R book with a focus on tidy data analysis principles applied to life sciences.
+
+Link: [https://bdsr.stephenturner.us/](https://bdsr.stephenturner.us/)
+
 ## Biostatistics for Biomedical Research
 
 - Frank E Harrell Jr
@@ -55,6 +63,14 @@ Link: [https://bookdown.org/steve_midway/BHME/](https://bookdown.org/steve_midwa
 The book is aimed at exposing biomedical researchers to modern biostatistical methods and statistical graphics, highlighting those methods that make fewer assumptions, including nonparametric statistics and robust statistical measures. In addition to covering traditional estimation and inferential techniques, the course contrasts those with the Bayesian approach, and also includes several components that have been increasingly important in the past few years, such as challenges of high-dimensional data analysis, modeling for observational treatment comparisons, analysis of differential treatment effect (heterogeneity of treatment effect), statistical methods for biomarker research, medical diagnostic research, and methods for reproducible research.
 
 Link: [http://hbiostat.org/bbr/](http://hbiostat.org/bbr/)
+
+## Cleaning Biodiversity Data in R
+
+- Atlas of Living Australia
+
+This book is a practical guide for cleaning geo-referenced biodiversity data using R. It focuses specifically on the processes and challenges you’ll face with biodiversity data. As such, this book isn’t a general guide to data cleaning but a targeted resource for those working with or interested in ecology, evolution, and geo-referenced biodiversity data.
+
+Link: [https://cleaning-data-r.ala.org.au/](https://cleaning-data-r.ala.org.au/)
 
 ## Comparative Methods
 
@@ -118,6 +134,14 @@ Link: [https://yulab-smu.top/treedata-book/](https://yulab-smu.top/treedata-book
 We hope this book provides a gentle introduction to data science. The main goal is to understand how to work with spreadsheet data and how data can be manipulated for multiple purposes. If nothing else, the book hopes to help you plan how to structure your own datasets for your own analysis. Even if you never go on to program on your own, understanding the way data can be manipulated and having a plan for your own dataset in the processing pipeline, will go a long ways when leaning and doing the analysis on your own, and/or working with collegues and collaborators on a project.
 
 Link: [https://ds4biomed.tech/](https://ds4biomed.tech/)
+
+## DataViz protocols: An introduction to data visualization protocols for wet lab scientists
+
+- [Joachim Goedhart](https://bsky.app/profile/joachimgoedhart.bsky.social)
+
+This book aims to lower the barrier for wet lab scientists to use R and ggplot2 for data visualization. First, by explaining some basic principles in data processing and visualization. Second, by providing example protocols, which can be applied to your own data, and I hope that the protocols serve as inspiration and a starting point for new and improved protocols.
+
+Link: [https://joachimgoedhart.github.io/DataViz-protocols/](https://joachimgoedhart.github.io/DataViz-protocols/)
 
 ## Experimental Design for Laboratory Biologists Maximising Information and Improving Reproducibility
 
@@ -230,6 +254,16 @@ The textbook can be used as support material for practical labs on basic statist
 
 Link: [https://practical-stats-med-r.netlify.app/](https://practical-stats-med-r.netlify.app/)
 
+## R for applied epidemiology and public health
+
+- [EpiR authors](https://twitter.com/epiRhandbook)
+
+This handbook is produced by a collaboration of epidemiologists from around the world drawing upon experience with organizations including local, state, provincial, and national health agencies, the World Health Organization (WHO), Médecins Sans Frontières / Doctors without Borders (MSF), hospital systems, and academic institutions. Also check out the accompanying tutorials: https://appliedepi.org/tutorial/ 
+
+Written by epidemiologists, for epidemiologists.
+
+Link: [https://epirhandbook.com/](https://epirhandbook.com/)
+
 ## R for Conservation and Development Projects A Primer for Practitioners
 
 - Nathan Whitmore
@@ -261,16 +295,6 @@ This book will take an individual with little or no experience in data science a
 
 Link: [https://argoshare.is.ed.ac.uk/healthyr_book/](https://argoshare.is.ed.ac.uk/healthyr_book/)
 
-## R for applied epidemiology and public health
-
-- [EpiR authors](https://twitter.com/epiRhandbook)
-
-This handbook is produced by a collaboration of epidemiologists from around the world drawing upon experience with organizations including local, state, provincial, and national health agencies, the World Health Organization (WHO), Médecins Sans Frontières / Doctors without Borders (MSF), hospital systems, and academic institutions. Also check out the accompanying tutorials: https://appliedepi.org/tutorial/ 
-
-Written by epidemiologists, for epidemiologists.
-
-Link: [https://epirhandbook.com/](https://epirhandbook.com/)
-
 ## Reproducible Medical Research with R
 
 - Peter D.R. Higgins, MD, PhD, MSc
@@ -279,6 +303,16 @@ This is a book for anyone in the medical field interested in analyzing the data 
 I expect that most learners will be using this book in their spare time at night and on weekends, as the health training curricula are already packed full of information, and there is no room to add skills in reproducible research to the standard curriculum. This book is designed for self-teaching, and many hints and solutions will be provided to avoid roadblocks and frustration. Many learners find themselves wanting to develop reproducible research skills after they have finished their training, and after they have become comfortable with their clinical role. This is the time when they identify and want to address problems faced by patients in their practice with the data they have before them. This book is for you.
 
 Link: [https://bookdown.org/pdr_higgins/rmrwr/](https://bookdown.org/pdr_higgins/rmrwr/)
+
+## Statistics in Natural Resources: Applications with R
+
+- Matthew Russell
+
+This is a book for current or aspiring natural resource professionals that are required to analyze data and perform statistical analyses in their daily work. It is especially well suited to graduate students enrolled in natural resources, agricultural, and environmental science disciplines that need a quantitative understanding of the data they collect to better communicate their research findings.
+
+More seasoned professionals that have previously had a course or two in statistics will also find the content familiar. This book can also serve as a bridge between professionals that understand statistics and want to learn how to perform analyses in R.
+
+Link: [https://stats4nr.com/](https://stats4nr.com/)
 
 ## Statistics in R for Biodiversity Conservation Paperback
 

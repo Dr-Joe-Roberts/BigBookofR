@@ -24,6 +24,30 @@ saving yourself a lot of time.
 
 Link: [https://b-greve.gitbook.io/beginners-guide-to-clean-data/](https://b-greve.gitbook.io/beginners-guide-to-clean-data/)
 
+## Biological Data Science with R
+
+- [Stephen Turner](https://blog.stephenturner.us/)
+
+Introductory R book with a focus on tidy data analysis principles applied to life sciences.
+
+Link: [https://bdsr.stephenturner.us/](https://bdsr.stephenturner.us/)
+
+## Cleaning Biodiversity Data in R
+
+- Atlas of Living Australia
+
+This book is a practical guide for cleaning geo-referenced biodiversity data using R. It focuses specifically on the processes and challenges you’ll face with biodiversity data. As such, this book isn’t a general guide to data cleaning but a targeted resource for those working with or interested in ecology, evolution, and geo-referenced biodiversity data.
+
+Link: [https://cleaning-data-r.ala.org.au/](https://cleaning-data-r.ala.org.au/)
+
+## Data Wrangling and Visualization Guide
+
+- Max Ricciardelli
+
+These modules are here to present a succinct guide to using R, RStudio, and R Markdown for data wrangling and visualization. This guide is meant for those who have little to no experience in programming. My purpose in designing these modules is to provide a brief yet clear guide to learning the basic theory of these tools and how to apply them in practice.
+
+Link: [https://bookdown.org/max_ricciardelli/wrangling_modules/](https://bookdown.org/max_ricciardelli/wrangling_modules/)
+
 ## Data Wrangling Essentials
 
 - Mark Banghart
@@ -33,14 +57,6 @@ The R and Python communities have developed a set of tools in the tidyverse and 
 The Data Wrangling Essentials title was chosen to emphasize both the use of these new tools and the importance of the work of gathering and preparing data.
 
 Link: [https://www.ssc.wisc.edu/sscc/pubs/DWE/book/](https://www.ssc.wisc.edu/sscc/pubs/DWE/book/)
-
-## Data Wrangling and Visualization Guide
-
-- Max Ricciardelli
-
-These modules are here to present a succinct guide to using R, RStudio, and R Markdown for data wrangling and visualization. This guide is meant for those who have little to no experience in programming. My purpose in designing these modules is to provide a brief yet clear guide to learning the basic theory of these tools and how to apply them in practice.
-
-Link: [https://bookdown.org/max_ricciardelli/wrangling_modules/](https://bookdown.org/max_ricciardelli/wrangling_modules/)
 
 ## Flexible Imputation of Missing Data
 
@@ -83,15 +99,6 @@ backwards from time to time.
 
 Link: [https://nacnudus.github.io/spreadsheet-munging-strategies/](https://nacnudus.github.io/spreadsheet-munging-strategies/)
 
-## Text Mining With Tidy Data Principles
-
-- [Julia Silge](https://twitter.com/juliasilge)
-
-Text data sets are diverse and ubiquitous, and tidy data principles provide an approach to make text mining easier, more effective, and consistent with tools already in wide use. In this tutorial, you will develop your text mining skills using the tidytext package in R, along
-with other tidyverse tools.
-
-Link: [https://juliasilge.shinyapps.io/learntidytext/](https://juliasilge.shinyapps.io/learntidytext/)
-
 ## Text Mining with R
 
 - [Julia Silge](https://twitter.com/juliasilge)
@@ -104,6 +111,23 @@ possible applications. Thus, this book provides compelling examples of
 real text mining problems.
 
 Link: [https://www.tidytextmining.com/](https://www.tidytextmining.com/)
+
+## Text Mining With Tidy Data Principles
+
+- [Julia Silge](https://twitter.com/juliasilge)
+
+Text data sets are diverse and ubiquitous, and tidy data principles provide an approach to make text mining easier, more effective, and consistent with tools already in wide use. In this tutorial, you will develop your text mining skills using the tidytext package in R, along
+with other tidyverse tools.
+
+Link: [https://juliasilge.shinyapps.io/learntidytext/](https://juliasilge.shinyapps.io/learntidytext/)
+
+## The Data Preparation Journey: Finding Your Way With R
+
+- Martin Monkman
+
+The book will introduce the principles of data preparation, framed in a systematic approach that follows a typical data science or statistical workflow. With that context, readers will then work through practical solutions to resolving problems in data using the statistical and data science programming language R. These solutions will include examples of complex real-world data.
+
+Link: [https://bookdown.org/martin_monkman/DataPreparationJourney/](https://bookdown.org/martin_monkman/DataPreparationJourney/)
 
 ## Web Scraping with R
 
